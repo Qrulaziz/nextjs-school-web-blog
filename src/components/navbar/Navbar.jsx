@@ -8,12 +8,12 @@ import ThemeToggle from '../themeToggle/ThemeToggle';
 const Navbar = () => {
   return (
     <div className={styles.container}>
-      <div className={styles.logo}>SMPN 4 Dongko</div>
+      <div className={styles.logo}>Sefourdo.</div>
       <div className={styles.links}>
-        <Link href="/">Beranda</Link>
-        <Link href="/">Profil</Link>
-        <Link href="/">Blog</Link>
-        <Link href="/">Kontak</Link>
+        <Link href="/" className={styles.link}>BERANDA</Link>
+        <Link href="/" className={styles.link}>PROFIL</Link>
+        <Link href="/" className={styles.link}>BERITA</Link>
+        <Link href="/" className={styles.link}>KONTAK</Link>
         <AuthLinks />
         <ThemeToggle />
       </div>

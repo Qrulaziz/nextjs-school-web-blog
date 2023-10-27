@@ -1,7 +1,7 @@
 import Featured from "@/components/featured/Featured";
 import styles from "./homepage.module.css";
 import Link from "next/link";
-import CategoryList from "@/components/categoryList/Navbar";
+import CategoryList from "@/components/categoryList/CategoryList";
 import CardList from "@/components/CardList/CardList";
 import Menu from "@/components/Menu/Menu";
 
