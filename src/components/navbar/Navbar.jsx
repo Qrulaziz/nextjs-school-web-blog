@@ -18,9 +18,9 @@ const Navbar = () => {
         <ThemeToggle />
       </div>
       <div className={styles.social}>
-        <Image src="/facebook.png" alt="facebook icon" width={24} height={24} />
-        <Image src="/instagram.png" alt="instagram icon" width={24} height={24} />
-        <Image src="/youtube.png" alt="youtube icon" width={24} height={24} />
+        <Link href="https://www.facebook.com/profile.php?id=100092647030969" target='_blank'><Image src="/facebook.png" alt="facebook icon" width={24} height={24} /></Link>
+        <Link href="https://www.instagram.com/smpn4dongko/" target='_blank'><Image src="/instagram.png" alt="instagram icon" width={24} height={24} /></Link>
+        <Link href="https://www.youtube.com/@smpn4dongko" target='_blank'><Image src="/youtube.png" alt="youtube icon" width={24} height={24} /></Link>
       </div>
     </div>
   )
