@@ -13,10 +13,10 @@ const MenuPosts = ({withImage}) => {
             </div>
           )}
           <div className={styles.textContainer}>
-            <span className={`${styles.category} ${styles.travel}`}>Travel</span>
+            <span className={`${styles.category} ${styles.kurikulum}`}>Kurikulum</span>
             <h3 className={styles.postTitle}>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h3>
             <div className={styles.detail}>
-              <span className={styles.username}>Alan Carter - </span>
+              <span className={styles.username}>Sahrul Aziz - </span>
               <span className={styles.date}>10.04.2023</span>
             </div>
           </div>
@@ -28,10 +28,10 @@ const MenuPosts = ({withImage}) => {
             </div>
           )}
           <div className={styles.textContainer}>
-            <span className={`${styles.category} ${styles.culture}`}>Culture</span>
+            <span className={`${styles.category} ${styles.lomba}`}>Lomba</span>
             <h3 className={styles.postTitle}>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h3>
             <div className={styles.detail}>
-              <span className={styles.username}>Alan Carter - </span>
+              <span className={styles.username}>Sahrul Aziz - </span>
               <span className={styles.date}>10.04.2023</span>
             </div>
           </div>
@@ -43,10 +43,10 @@ const MenuPosts = ({withImage}) => {
             </div>
           )}
           <div className={styles.textContainer}>
-            <span className={`${styles.category} ${styles.food}`}>Food</span>
+            <span className={`${styles.category} ${styles.p5}`}>P5</span>
             <h3 className={styles.postTitle}>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h3>
             <div className={styles.detail}>
-              <span className={styles.username}>Alan Carter - </span>
+              <span className={styles.username}>Sahrul Aziz - </span>
               <span className={styles.date}>10.04.2023</span>
             </div>
           </div>
@@ -58,10 +58,10 @@ const MenuPosts = ({withImage}) => {
             </div>
           )}
           <div className={styles.textContainer}>
-            <span className={`${styles.category} ${styles.fashion}`}>Fashion</span>
+            <span className={`${styles.category} ${styles.ekskul}`}>Ekskul</span>
             <h3 className={styles.postTitle}>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h3>
             <div className={styles.detail}>
-              <span className={styles.username}>Alan Carter - </span>
+              <span className={styles.username}>Sahrul Aziz - </span>
               <span className={styles.date}>10.04.2023</span>
             </div>
           </div>

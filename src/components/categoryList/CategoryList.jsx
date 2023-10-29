@@ -8,29 +8,29 @@ const CategoryList = () => {
     <div className={styles.container}>
       <h1 className={styles.title}>Pilih Kategori</h1>
       <div className={styles.categories}>
-          <Link href="/blog?cat=style" className={`${styles.category} ${styles.style}`}>
+          <Link href="/blog?cat=pendidikan" className={`${styles.category} ${styles.pendidikan}`}>
             <Image src="/style.png" alt="" width={32} height={32} className={styles.image}/>
-            style
+            pendidikan
           </Link>
-          <Link href="/blog?cat=fashion" className={`${styles.category} ${styles.fashion}`}>
+          <Link href="/blog?cat=ekskul" className={`${styles.category} ${styles.ekskul}`}>
             <Image src="/fashion.png" alt="" width={32} height={32} className={styles.image}/>
-            fashion
+            ekskul
           </Link>
-          <Link href="/blog?cat=food" className={`${styles.category} ${styles.food}`}>
+          <Link href="/blog?cat=kurikulum" className={`${styles.category} ${styles.kurikulum}`}>
             <Image src="/food.png" alt="" width={32} height={32} className={styles.image}/>
-            food
+            kurikulum
           </Link>
-          <Link href="/blog?cat=travel" className={`${styles.category} ${styles.travel}`}>
+          <Link href="/blog?cat=teknologi" className={`${styles.category} ${styles.teknologi}`}>
             <Image src="/travel.png" alt="" width={32} height={32} className={styles.image}/>
-            travel
+            teknologi
           </Link>
-          <Link href="/blog?cat=culture" className={`${styles.category} ${styles.culture}`}>
+          <Link href="/blog?cat=p5" className={`${styles.category} ${styles.p5}`}>
             <Image src="/culture.png" alt="" width={32} height={32} className={styles.image}/>
-            culture
+            p5
           </Link>
-          <Link href="/blog?cat=coding" className={`${styles.category} ${styles.coding}`}>
+          <Link href="/blog?cat=lomba" className={`${styles.category} ${styles.lomba}`}>
             <Image src="/coding.png" alt="" width={32} height={32} className={styles.image}/>
-            coding
+            lomba
           </Link>
       </div>
     </div>

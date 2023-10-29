@@ -12,7 +12,7 @@ const Card = () => {
           <div className={styles.textContainer}>
             <div className={styles.detail}>
                 <span className={styles.date}>11.02.2023 | </span>
-                <span className={styles.category}>CULTURE</span>
+                <span className={styles.category}>P5</span>
             </div>
             <Link href="/">
                 <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>

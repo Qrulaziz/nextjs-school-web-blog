@@ -1,7 +1,6 @@
 .container {
-
+   
 }
-
 .title {
     margin: 50px 0px;
 }
@@ -23,27 +22,27 @@
     border-radius: 10px;
  }
 
- .category.style {
+ .category.pendidikan {
     background-color: #57c4ff31;
  }
 
- .category.fashion {
+ .category.ekskul {
     background-color: #da85c731;
  }
 
- .category.food {
+ .category.kurikulum {
     background-color: #7fb88133;
  }
 
- .category.travel {
+ .category.teknologi {
     background-color: #ff795736;
  }
 
- .category.culture {
+ .category.p5 {
     background-color: #ffb04f45;
  }
 
- .category.coding {
+ .category.lomba {
     background-color: #5e4fff31;
  }
 
