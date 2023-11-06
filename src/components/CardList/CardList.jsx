@@ -5,7 +5,7 @@ import Image from 'next/image';
 import Card from '../card/Card';
 
 const getData = async (page, cat) => {
-  const res = await fetch(`https://smp4-dongko.vercel.app/api/posts?page=${page}&cat=${cat || ""}`, {
+  const res = await fetch(`/api/posts?page=${page}&cat=${cat || ""}`, {
     cache: "no-store",
   });
 
